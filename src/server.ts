@@ -25,7 +25,7 @@ function runServer(server: express.Express) {
 }
 
 function pageNotFound(req: express.Request, res: express.Response) {
-    res.send('Página não encontrada.');
+    res.render('pages/404');
 }
 
 function startApplication() {

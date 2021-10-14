@@ -5,6 +5,7 @@
     --darkbg: #FFF;
     --lightbg: #000;
     --lighter: #444;
+    --blue: #1d92ff;
 }
 
 * {
@@ -141,6 +142,11 @@ footer {
     text-align: center;
     font-size: 16px;
     color: var(--main);
+}
+
+footer a {
+    color: var(--blue);
+    text-decoration: none;
 }
 
 @media (max-width: 900px) {
