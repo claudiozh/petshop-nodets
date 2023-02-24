@@ -9,10 +9,3 @@ Projeto feito em node usando typesscript
 
 ## Start projeto:
 `npm run start:dev`
-
-## Deploy heroku
-`heroku login`
-
-`heroku create`
-
-`git push heroku`
