@@ -6,7 +6,7 @@ import { config } from "dotenv";
 
 config();
 
-function configsAplication(server: express.Express) {
+function configsApplication(server: express.Express) {
     server.set('view engine', 'mustache');
     server.set('views', path.join(__dirname, 'views'));
     server.engine('mustache', mustache());
@@ -31,7 +31,7 @@ function pageNotFound(req: express.Request, res: express.Response) {
 function startApplication() {
     const server = express();
 
-    configsAplication(server);
+    configsApplication(server);
     runServer(server);
 }
 
